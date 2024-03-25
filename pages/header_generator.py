@@ -1,11 +1,9 @@
 def generate_header_html():
     nav_items = {
         "Partners": "/Partners",
-        "shared": "/shared",
-        "operations": "/operations",
+        "Shared": "/Shared",
+        "Operations": "/Operations",
         "Account": "/Account",
-        "Message": "/Message",
-        "profile": "/profile",
     }
 
     # Generate HTML links for navbar items

@@ -5,6 +5,24 @@ import streamlit as st
 from pages.header_generator import generate_header_html
 header_html = generate_header_html()
 st.markdown(header_html, unsafe_allow_html=True)
+
+
+
+
+
+
+
+st.write("")  # Empty line
+
+st.write("")  # Empty line
+
+
+st.write("Welcome.")
+
+
+
+
+
 # footer
 import streamlit as st
 from pages.footer_generator import generate_footer_html
